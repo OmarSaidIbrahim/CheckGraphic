@@ -42,8 +42,6 @@ export default class App extends React.Component {
     }).start()
     })
 
-    
-
     Animated.timing(this.shakeAnimation, {
       toValue: -200, 
       duration: 800, 
@@ -96,7 +94,3 @@ export default class App extends React.Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-  
-});
